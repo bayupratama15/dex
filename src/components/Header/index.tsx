@@ -396,7 +396,7 @@ export default function Header() {
             </Dropdown>
           </HoverDropdown>
 
-          <Flex id={TutorialIds.EARNING_LINKS} alignItems="center">
+          {/* <Flex id={TutorialIds.EARNING_LINKS} alignItems="center">
             <HoverDropdown active={pathname.toLowerCase().includes('pools')}>
               <Flex alignItems="center">
                 <Trans>Earn</Trans>
@@ -433,9 +433,47 @@ export default function Header() {
                 <Trans>Farm</Trans>
               </StyledNavLink>
             </YieldMenuWrapper>
+          </Flex> */}
+          <Flex id={TutorialIds.EARNING_LINKS} alignItems="center">
+            <HoverDropdown active={pathname.toLowerCase().includes('pools')}>
+              <Flex alignItems="center">
+                <Trans>Earn</Trans>
+                <DropdownIcon />
+              </Flex>
+              <Dropdown>
+                <StyledNavLink
+                  id="pools-nav-link"
+                  to="/under-construction"
+                  isActive={(match, { pathname }) => Boolean(match) || pathname.startsWith('/pools')}
+                  style={{ width: '100%' }}
+                >
+                  <Trans>Pools</Trans>
+                </StyledNavLink>
+
+                <StyledNavLink
+                  id="my-pools-nav-link"
+                  to={'/under-construction'}
+                  isActive={(match, { pathname }) =>
+                    Boolean(match) ||
+                    pathname.startsWith('/add') ||
+                    pathname.startsWith('/remove') ||
+                    pathname.startsWith('/create') ||
+                    (pathname.startsWith('/find') && pathname.endsWith('find'))
+                  }
+                >
+                  <Trans>My Pools</Trans>
+                </StyledNavLink>
+              </Dropdown>
+            </HoverDropdown>
+
+            <YieldMenuWrapper>
+              <StyledNavLink id={`farms-nav-link`} to={'/under-construction'} isActive={match => Boolean(match)}>
+                <Trans>Farm</Trans>
+              </StyledNavLink>
+            </YieldMenuWrapper>
           </Flex>
 
-          {!under369 && (
+          {/* {!under369 && (
             <CampaignWrapper id={TutorialIds.CAMPAIGN_LINK}>
               <StyledNavLink id={`campaigns`} to={'/campaigns'} isActive={match => Boolean(match)}>
                 <Trans>Campaigns</Trans>
@@ -446,9 +484,15 @@ export default function Header() {
                 )}
               </StyledNavLink>
             </CampaignWrapper>
-          )}
+          )} */}
 
-          <DiscoverWrapper id={TutorialIds.DISCOVER_LINK}>
+          <CampaignWrapper id={TutorialIds.CAMPAIGN_LINK}>
+            <StyledNavLink id={`campaigns`} to={'/under-construction'}>
+              <Trans>Campaigns</Trans>
+            </StyledNavLink>
+          </CampaignWrapper>
+
+          {/* <DiscoverWrapper id={TutorialIds.DISCOVER_LINK}>
             <StyledNavLink
               to={'/discover?tab=trending_soon'}
               isActive={match => Boolean(match)}
@@ -463,12 +507,33 @@ export default function Header() {
               </SlideToUnlock>
               <DiscoverIcon size={14} style={{ marginTop: '-20px', marginLeft: '4px' }} />
             </StyledNavLink>
+          </DiscoverWrapper> */}
+          <DiscoverWrapper id={TutorialIds.DISCOVER_LINK}>
+            <StyledNavLink
+              to={'/under-construction'}
+              isActive={match => Boolean(match)}
+              style={{ alignItems: 'center' }}
+            >
+              <SlideToUnlock
+                active={pathname.includes('discover') || isHoverSlide}
+                onMouseEnter={() => setIsHoverSlide(true)}
+                onMouseLeave={() => setIsHoverSlide(false)}
+              >
+                <Trans>Discover</Trans>
+              </SlideToUnlock>
+              <DiscoverIcon size={14} style={{ marginTop: '-20px', marginLeft: '4px' }} />
+            </StyledNavLink>
           </DiscoverWrapper>
 
-          <AnalyticsWrapper>
+          {/* <AnalyticsWrapper>
             <StyledNavExternalLink href={PROMM_ANALYTICS_URL[chainId as ChainId] + '/home'}>
               <Trans>Analytics</Trans>
             </StyledNavExternalLink>
+          </AnalyticsWrapper> */}
+          <AnalyticsWrapper>
+            <StyledNavLink id={`analytics`} to={'/under-construction'}>
+              <Trans>Analytics</Trans>
+            </StyledNavLink>
           </AnalyticsWrapper>
 
           <AboutWrapper>

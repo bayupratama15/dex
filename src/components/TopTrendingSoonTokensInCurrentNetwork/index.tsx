@@ -108,7 +108,7 @@ const TopTrendingSoonTokensInCurrentNetwork = () => {
             />
           )}
         </Modal>
-        <FadeInAnimation $isAnimate={!trendingSoonShowed}>
+        {/* <FadeInAnimation $isAnimate={!trendingSoonShowed}>
           <TrendingSoonTokensAndNoteContainer>
             <TrendingSoonTokensContainer>
               <Flex
@@ -163,7 +163,7 @@ const TopTrendingSoonTokensInCurrentNetwork = () => {
               </Trans>
             </TextNote>
           </TrendingSoonTokensAndNoteContainer>
-        </FadeInAnimation>
+        </FadeInAnimation> */}
       </>
     )
 
