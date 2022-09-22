@@ -111,15 +111,12 @@ function Footer() {
         <InfoWrapper>
           <Item>
             <Text marginRight="6px">
-              <Trans>Powered By</Trans>
+              <Trans>Powered By Cryon Network</Trans>
             </Text>
-            <ExternalLink href="https://kyber.network" style={{ display: 'flex' }}>
-              {isDarkMode ? <PoweredByIconDark width={48} /> : <PoweredByIconLight width={48} />}
-            </ExternalLink>
           </Item>
           <Separator />
 
-          <Item>
+          {/* <Item>
             <Text marginRight="6px" display="flex">
               <Trans>Audited By</Trans>
               {!above768 && <InfoHelper size={14} text={t`Covers smart-contracts`} placement="top" />}
@@ -136,7 +133,7 @@ function Footer() {
               />
             </ExternalLink>
             {above768 && <InfoHelper size={14} text={t`Covers smart-contracts`} placement="top" />}
-          </Item>
+          </Item> */}
         </InfoWrapper>
         <FooterSocialLink />
       </FooterContent>
