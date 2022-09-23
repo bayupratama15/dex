@@ -150,7 +150,7 @@ function Step1() {
   return (
     <Layout title={LIST_TITLE.CONNECT_WALLET}>
       <Desc>
-        <Trans>Choose your preferred wallet, connect it, and get started with KyberSwap!</Trans>
+        <Trans>Choose your preferred wallet, connect it, and get started with CryonSwap!</Trans>
       </Desc>
       <ImageMobile imageName="step1.png" />
       <BrowserView>
@@ -214,7 +214,7 @@ function Step3({ videoStyle = {} }: { videoStyle: CSSProperties }) {
           exchanges & combines them into one trade!
         </Trans>
       </Desc>
-      <div style={{ position: 'relative' }}>
+      {/* <div style={{ position: 'relative' }}>
         <iframe
           ref={ref}
           width="100%"
@@ -226,9 +226,8 @@ function Step3({ videoStyle = {} }: { videoStyle: CSSProperties }) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />
-        {/** because we need tracking we user click video, iframe youtube not fire any event for us. */}
         {!playedVideo && !isMobile && <TouchAbleVideo onClick={playVideo} />}
-      </div>
+      </div> */}
     </Layout>
   )
 }
@@ -406,12 +405,12 @@ const getListSteps = (isLogin: boolean) => {
               You can repeat these instructions anytime by clicking on the &quot;View&quot; button under Preferences.
             </Trans>
           </Desc>
-          <Desc>
+          {/* <Desc>
             <Trans>
               For a more detailed user guide,{' '}
               <ExternalLink href="https://docs.kyberswap.com/guides/getting-started">click here.</ExternalLink>
             </Trans>
-          </Desc>
+          </Desc> */}
           <ImageMobile imageName="step8.1.png" />
           <ImageMobile imageName="step8.2.png" marginTop />
         </Layout>

@@ -179,7 +179,7 @@ export default function App() {
           <ApolloProvider client={classicClient}>
             <Route component={DarkModeQueryParamReader} />
             <AppWrapper>
-              <TopBanner />
+              {/* <TopBanner /> */}
               <HeaderWrapper>
                 <Header />
               </HeaderWrapper>
@@ -202,6 +202,11 @@ export default function App() {
                       <Route exact strict path="/pools/:currencyIdA/:currencyIdB" component={Pools} />
                       {/* <Route exact strict path="/farms" component={Yield} /> */}
                       <Route exact strict path="/under-construction" component={UnderConstruction} />
+                      <Route exact strict path="/under-construction-pools" component={UnderConstruction} />
+                      <Route exact strict path="/under-construction-my-pools" component={UnderConstruction} />
+                      <Route exact strict path="/under-construction-farm" component={UnderConstruction} />
+                      <Route exact strict path="/under-construction-campaigns" component={UnderConstruction} />
+                      <Route exact strict path="/under-construction-discover" component={UnderConstruction} />
                       <Route exact strict path="/myPools" component={Pool} />
 
                       {/* Create new pool */}

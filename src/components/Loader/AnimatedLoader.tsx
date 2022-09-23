@@ -47,7 +47,8 @@ function AnimateLoader({ size = 160 }: { size?: number }) {
       <Inner size={size}>
         <div />
         <div />
-        <img src={LoadingLogo} width="30%" alt="" />
+        {/* <img src={LoadingLogo} width="30%" alt="" /> */}
+        <img src="/cry/cryonswap_b.png" width="30%" alt="" />
       </Inner>
     </Wrapper>
   )

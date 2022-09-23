@@ -140,7 +140,7 @@ export default function SettingsTab() {
               <RowBetween style={{ marginTop: '15px' }} id={TutorialIds.BUTTON_VIEW_GUIDE_SWAP}>
                 <RowFixed>
                   <StyledLabel>
-                    <Trans>KyberSwap Guide</Trans>
+                    <Trans>CryonSwap Guide</Trans>
                   </StyledLabel>
                 </RowFixed>
                 <ButtonViewGuide onClick={openTutorialSwapGuide}>

@@ -269,7 +269,7 @@ function AboutKyberSwap() {
       {above768 && (
         <Flex alignItems="center" width="fit-content">
           <KyberSwapSlippage>
-            <img src={isDarkMode ? '/logo-dark.svg' : '/logo.svg'} width="88px" alt="KyberSwap" />
+            <img src={isDarkMode ? '/cry/cryonswap_w.png' : '/cry/cryonswap_b.png'} width="88px" alt="CryonSwap" />
             <Flex justifyContent="center">
               <Text fontWeight="500" fontSize="40px" lineHeight="48px">
                 ~0.1
@@ -429,7 +429,7 @@ function AboutKyberSwap() {
   return (
     <div style={{ position: 'relative', background: isDarkMode ? theme.buttonBlack : theme.white, width: '100%' }}>
       <AboutPage>
-        <Banner margin="32px auto 0" padding="0 16px" maxWidth="1224px" />
+        {/* <Banner margin="32px auto 0" padding="0 16px" maxWidth="1224px" /> */}
 
         <Wrapper>
           <Text as="h1" fontSize={['28px', '48px']} textAlign="center" lineHeight={['32px', '60px']} fontWeight="300">

@@ -349,7 +349,7 @@ export default function Header() {
       <HeaderRow>
         <Title to="/swap">
           <UniIcon>
-            <IconImage src={isDark ? '/logo-dark.svg' : '/logo.svg'} alt="logo" />
+            <IconImage src={isDark ? '/cry/cryonswap_w.png' : '/cry/cryonswap_b.png'} alt="logo" />
           </UniIcon>
         </Title>
         <HeaderLinks>
@@ -443,7 +443,7 @@ export default function Header() {
               <Dropdown>
                 <StyledNavLink
                   id="pools-nav-link"
-                  to="/under-construction"
+                  to="/under-construction-pools"
                   isActive={(match, { pathname }) => Boolean(match) || pathname.startsWith('/pools')}
                   style={{ width: '100%' }}
                 >
@@ -452,7 +452,7 @@ export default function Header() {
 
                 <StyledNavLink
                   id="my-pools-nav-link"
-                  to={'/under-construction'}
+                  to={'/under-construction-my-farm'}
                   isActive={(match, { pathname }) =>
                     Boolean(match) ||
                     pathname.startsWith('/add') ||
@@ -467,7 +467,7 @@ export default function Header() {
             </HoverDropdown>
 
             <YieldMenuWrapper>
-              <StyledNavLink id={`farms-nav-link`} to={'/under-construction'} isActive={match => Boolean(match)}>
+              <StyledNavLink id={`farms-nav-link`} to={'/under-construction-farm'} isActive={match => Boolean(match)}>
                 <Trans>Farm</Trans>
               </StyledNavLink>
             </YieldMenuWrapper>
@@ -487,7 +487,7 @@ export default function Header() {
           )} */}
 
           <CampaignWrapper id={TutorialIds.CAMPAIGN_LINK}>
-            <StyledNavLink id={`campaigns`} to={'/under-construction'}>
+            <StyledNavLink id={`campaigns`} to={'/under-construction-campaigns'}>
               <Trans>Campaigns</Trans>
             </StyledNavLink>
           </CampaignWrapper>
@@ -510,7 +510,7 @@ export default function Header() {
           </DiscoverWrapper> */}
           <DiscoverWrapper id={TutorialIds.DISCOVER_LINK}>
             <StyledNavLink
-              to={'/under-construction'}
+              to={'/under-construction-discover'}
               isActive={match => Boolean(match)}
               style={{ alignItems: 'center' }}
             >
@@ -530,13 +530,8 @@ export default function Header() {
               <Trans>Analytics</Trans>
             </StyledNavExternalLink>
           </AnalyticsWrapper> */}
-          <AnalyticsWrapper>
-            <StyledNavLink id={`analytics`} to={'/under-construction'}>
-              <Trans>Analytics</Trans>
-            </StyledNavLink>
-          </AnalyticsWrapper>
 
-          <AboutWrapper>
+          {/* <AboutWrapper>
             <HoverDropdown active={pathname.toLowerCase().includes('about')}>
               <Flex alignItems="center">
                 <Trans>About</Trans>
@@ -552,7 +547,7 @@ export default function Header() {
                 </StyledNavLink>
               </Dropdown>
             </HoverDropdown>
-          </AboutWrapper>
+          </AboutWrapper> */}
         </HeaderLinks>
       </HeaderRow>
       <HeaderControls>

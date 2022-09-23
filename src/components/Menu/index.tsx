@@ -249,29 +249,29 @@ export default function Menu() {
             <Trans>Analytics</Trans>
           </MenuItem>
         )}
-        <MenuItem id="link" href="https://docs.kyberswap.com">
+        {/* <MenuItem id="link" href="https://docs.kyberswap.com">
           <BookOpen size={14} />
           <Trans>Docs</Trans>
         </MenuItem>
         <MenuItem id="link" href="https://gov.kyber.org">
           <MessageCircle size={14} />
           <Trans>Forum</Trans>
-        </MenuItem>
+        </MenuItem> */}
 
-        <MenuItem id="link" href="/15022022KyberSwapTermsofUse.pdf">
+        {/* <MenuItem id="link" href="/15022022KyberSwapTermsofUse.pdf">
           <FileText size={14} />
           <Trans>Terms</Trans>
-        </MenuItem>
+        </MenuItem> */}
         {process.env.REACT_APP_MAINNET_ENV !== 'production' && (
           <NavMenuItem to="/swap-legacy" onClick={toggle}>
             <Triangle size={14} />
             <Trans>Swap Legacy</Trans>
           </NavMenuItem>
         )}
-        <MenuItem id="link" href="https://forms.gle/gLiNsi7iUzHws2BY8">
+        {/* <MenuItem id="link" href="https://forms.gle/gLiNsi7iUzHws2BY8">
           <Edit size={14} />
           <Trans>Contact Us</Trans>
-        </MenuItem>
+        </MenuItem> */}
         <ClaimRewardButton
           disabled={!account || (!!chainId && NETWORKS_INFO[chainId].classic.claimReward === '') || pendingTx}
           onClick={() => {

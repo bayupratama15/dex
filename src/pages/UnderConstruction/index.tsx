@@ -1,8 +1,16 @@
-const underConstruction = () => {
+import React from 'react'
+import styled, { css, keyframes } from 'styled-components'
+
+import { useIsDarkMode } from 'state/user/hooks'
+
+const UnderConstruction = () => {
+  const isDark = useIsDarkMode()
   return (
     <div className="under-construction">
+      {/* dark and light */}
+
       <img
-        src="4.png"
+        src={isDark ? '/cry2/cryon404.png' : '/cry/cryon404.png'}
         alt="under-construction"
         style={{
           height: '300px',
@@ -12,4 +20,4 @@ const underConstruction = () => {
     </div>
   )
 }
-export default underConstruction
+export default UnderConstruction

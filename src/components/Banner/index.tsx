@@ -121,37 +121,7 @@ function Banner({
           : w > 500
           ? KyberSwapTradingCampaignTablet
           : KyberSwapTradingCampaignMobile,
-        link: 'https://kyberswap.com/campaigns/kyberswap-trading-campaigns-with-lido-finance-8?networkId=137&utm_source=kyberswap&utm_medium=banner&utm_campaign=lidotradingcontest&utm_content=lidotrading_onsite',
-      },
-      {
-        // KyberSwap Arbitrum Lido Farm
-        id: 'KyberSwap-Arbitrum-Lido-Farm',
-        name: 'KyberSwap Arbitrum Lido Farm',
-        start: new Date('2022-09-19T00:00:00.000Z'),
-        end: new Date('2022-10-19T23:59:59.000Z'),
-        img: isInModal
-          ? KyberSwapArbitrumLidoFarmMobile
-          : w > 768
-          ? KyberSwapArbitrumLidoFarmDesktop
-          : w > 500
-          ? KyberSwapArbitrumLidoFarmTablet
-          : KyberSwapArbitrumLidoFarmMobile,
-        link: 'https://kyberswap.com/farms?tab=elastic&networkId=42161&utm_source=kyberswap&utm_medium=banner&utm_campaign=lidofinancelm&utm_content=lidofarm_onsite',
-      },
-      {
-        // KyberSwap Optimism Lido Farm
-        id: 'KyberSwap-Optimism-Lido-Farm',
-        name: 'KyberSwap Optimism Lido Farm',
-        start: new Date('2022-09-19T00:00:00.000Z'),
-        end: new Date('2022-10-19T23:59:59.000Z'),
-        img: isInModal
-          ? KyberSwapOptimismLidoFarmMobile
-          : w > 768
-          ? KyberSwapOptimismLidoFarmDesktop
-          : w > 500
-          ? KyberSwapOptimismLidoFarmTablet
-          : KyberSwapOptimismLidoFarmMobile,
-        link: 'https://kyberswap.com/farms?tab=elastic&networkId=10&utm_source=kyberswap&utm_medium=banner&utm_campaign=lidofinancelm&utm_content=lidofarm_onsite',
+        link: '#',
       },
     ],
     [isInModal, w],
