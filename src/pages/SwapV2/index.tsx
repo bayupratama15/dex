@@ -747,14 +747,14 @@ export default function Swap({ history }: RouteComponentProps) {
               </TabContainer>
 
               <SwapFormActions>
-                <Tutorial
+                {/* <Tutorial
                   type={TutorialType.SWAP}
                   customIcon={
                     <StyledActionButtonSwapForm>
                       <TutorialIcon />
                     </StyledActionButtonSwapForm>
                   }
-                />
+                /> */}
                 <MobileTokenInfo
                   currencies={currencies}
                   onClick={() => setActiveTab(prev => (prev === TAB.INFO ? TAB.SWAP : TAB.INFO))}

@@ -452,7 +452,7 @@ export default function Header() {
 
                 <StyledNavLink
                   id="my-pools-nav-link"
-                  to={'/under-construction-my-farm'}
+                  to={'/under-construction-my-pools'}
                   isActive={(match, { pathname }) =>
                     Boolean(match) ||
                     pathname.startsWith('/add') ||
