@@ -5,16 +5,16 @@ import { Flex, Text } from 'rebass'
 import styled from 'styled-components'
 
 import { Telegram } from 'components/Icons'
-import Discord from 'components/Icons/Discord'
-import Medium from 'components/Icons/Medium'
-import PoweredByIconDark from 'components/Icons/PoweredByIconDark'
-import PoweredByIconLight from 'components/Icons/PoweredByIconLight'
+// import Discord from 'components/Icons/Discord'
+// import Medium from 'components/Icons/Medium'
+// import PoweredByIconDark from 'components/Icons/PoweredByIconDark'
+// import PoweredByIconLight from 'components/Icons/PoweredByIconLight'
 import TwitterIcon from 'components/Icons/TwitterIcon'
 import InfoHelper from 'components/InfoHelper'
-import { KYBER_NETWORK_DISCORD_URL, KYBER_NETWORK_TWITTER_URL } from 'constants/index'
+import { KYBER_NETWORK_TWITTER_URL } from 'constants/index'
 import useTheme from 'hooks/useTheme'
 import { useIsDarkMode } from 'state/user/hooks'
-import { ExternalLink, ExternalLinkNoLineHeight } from 'theme'
+import { ExternalLinkNoLineHeight } from 'theme'
 
 const FooterWrapper = styled.div`
   background: ${({ theme }) => theme.buttonGray + '33'};

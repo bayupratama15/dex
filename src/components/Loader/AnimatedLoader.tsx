@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
 
-import LoadingLogo from 'assets/svg/loading_logo.svg'
+// import LoadingLogo from 'assets/svg/loading_logo.svg'
 
 const loadingAnimation = keyframes`
   0% { transform: rotate(0deg) }

@@ -2,18 +2,19 @@ import { ChainId } from '@kyberswap/ks-sdk-core'
 import { Trans, t } from '@lingui/macro'
 import React, { useRef } from 'react'
 import { isMobile } from 'react-device-detect'
-import {
-  Award,
-  BookOpen,
-  Edit,
-  FileText,
-  Menu as MenuIcon,
-  MessageCircle,
-  PieChart,
-  Share2,
-  Triangle,
-  UserPlus,
-} from 'react-feather'
+// import {
+//   Award,
+//   BookOpen,
+//   Edit,
+//   FileText,
+//   Menu as MenuIcon,
+//   MessageCircle,
+//   PieChart,
+//   Share2,
+//   Triangle,
+//   UserPlus,
+// } from 'react-feather'
+import { Award, Menu as MenuIcon, PieChart, Share2, Triangle, UserPlus } from 'react-feather'
 import { NavLink } from 'react-router-dom'
 import { useMedia } from 'react-use'
 import { Text } from 'rebass'
