@@ -85,17 +85,11 @@ export const FooterSocialLink = () => {
   const theme = useTheme()
   return (
     <Flex alignItems="center" justifyContent="center" sx={{ gap: '24px' }}>
-      <ExternalLinkNoLineHeight href="https://t.me/kybernetwork">
+      <ExternalLinkNoLineHeight href="https://t.me/Cryon_Portal">
         <Telegram size={16} color={theme.subText} />
       </ExternalLinkNoLineHeight>
       <ExternalLinkNoLineHeight href={KYBER_NETWORK_TWITTER_URL}>
         <TwitterIcon color={theme.subText} />
-      </ExternalLinkNoLineHeight>
-      <ExternalLinkNoLineHeight href={KYBER_NETWORK_DISCORD_URL}>
-        <Discord width={16} height={12} color={theme.subText} />
-      </ExternalLinkNoLineHeight>
-      <ExternalLinkNoLineHeight href={`https://blog.kyber.network`}>
-        <Medium />
       </ExternalLinkNoLineHeight>
     </Flex>
   )

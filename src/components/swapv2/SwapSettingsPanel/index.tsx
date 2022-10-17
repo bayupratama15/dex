@@ -145,7 +145,7 @@ const SettingsPanel: React.FC<Props> = ({ className, onBack, onClickLiquiditySou
                 </RowFixed>
                 <Toggle isActive={isShowLiveChart} toggle={handleToggleLiveChart} />
               </RowBetween>
-              <RowBetween>
+              {/* <RowBetween>
                 <RowFixed>
                   <span className="settingLabel">
                     <Trans>Trade Route</Trans>
@@ -153,7 +153,7 @@ const SettingsPanel: React.FC<Props> = ({ className, onBack, onClickLiquiditySou
                   <QuestionHelper text={t`Turn on to display trade route`} />
                 </RowFixed>
                 <Toggle isActive={isShowTradeRoutes} toggle={handleToggleTradeRoute} />
-              </RowBetween>
+              </RowBetween> */}
 
               <RowBetween>
                 <RowFixed>

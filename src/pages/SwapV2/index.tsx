@@ -1105,7 +1105,7 @@ export default function Swap({ history }: RouteComponentProps) {
                   </Suspense>
                 </LiveChartWrapper>
               )}
-              {isShowTradeRoutes && (
+              {/* {isShowTradeRoutes && (
                 <RoutesWrapper isOpenChart={isShowLiveChart}>
                   <Flex flexDirection="column" width="100%">
                     <Flex alignItems={'center'}>
@@ -1119,7 +1119,7 @@ export default function Swap({ history }: RouteComponentProps) {
                     </Suspense>
                   </Flex>
                 </RoutesWrapper>
-              )}
+              )} */}
               {shouldRenderTokenInfo ? <TokenInfoV2 currencyIn={currencyIn} currencyOut={currencyOut} /> : null}
             </InfoComponentsWrapper>
           )}

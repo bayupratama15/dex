@@ -195,7 +195,7 @@ const TopTrendingSoonTokensInCurrentNetwork = () => {
         setChartTimeframe={setChartTimeframe}
       />
       <FadeInAnimation>
-        <TrendingSoonTokensMobileContainer>
+        {/* <TrendingSoonTokensMobileContainer>
           <Flex justifyContent="space-between" alignItems="center">
             <Text
               color={theme.subText}
@@ -250,7 +250,7 @@ const TopTrendingSoonTokensInCurrentNetwork = () => {
             </Flex>
           </Flex>
           <Divider />
-        </TrendingSoonTokensMobileContainer>
+        </TrendingSoonTokensMobileContainer> */}
       </FadeInAnimation>
     </>
   )

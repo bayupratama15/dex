@@ -364,7 +364,7 @@ function BuyCrypto() {
               {!upToMedium && (
                 <>
                   <Step direction="vertical" currentStep={2} onStepClick={handleStepClick} />
-                  <Image src={SeamlessImg} marginLeft="68px" maxWidth="496px" data-aos="zoom-in-right" flex={1} />
+                  <Image src="./buynow.png" marginLeft="68px" maxWidth="496px" data-aos="zoom-in-right" flex={1} />
                 </>
               )}
               <Flex flexDirection="column" marginLeft={!upToMedium ? '48px' : 0} data-aos="fade-left" flex={1}>
@@ -538,7 +538,7 @@ function BuyCrypto() {
                   maxWidth: upToMedium ? '252px' : '496px',
                 }}
               >
-                <Image src={buyNowImg} data-aos="zoom-in-left" />
+                <Image src="./buynow1.png" data-aos="zoom-in-left" />
               </Flex>
             </Flex>
 
