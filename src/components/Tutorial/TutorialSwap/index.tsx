@@ -353,7 +353,7 @@ const getListSteps = (isLogin: boolean) => {
               Add liquidity into our Pools to earn trading fees & participate in our Farms to earn additional rewards!
             </Trans>
           </Desc>
-          <ImageMobile imageName="step5.png" />
+          {/* <ImageMobile imageName="step5.png" /> */}
         </Layout>
       ),
       orientationPreferences: [CardinalOrientation.SOUTH],
@@ -412,7 +412,7 @@ const getListSteps = (isLogin: boolean) => {
             </Trans>
           </Desc> */}
           <ImageMobile imageName="step8.1.png" />
-          <ImageMobile imageName="step8.2.png" marginTop />
+          {/* <ImageMobile imageName="step8.2.png" marginTop /> */}
         </Layout>
       ),
     },
