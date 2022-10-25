@@ -37,3 +37,8 @@ cypress/screenshots
 cypress/fixtures/example.json
 /src/libs/sdk/*
 .vercel
+kyberswap.zip
+.gitignore
+package.json
+yarn.lock
+yarn.lock

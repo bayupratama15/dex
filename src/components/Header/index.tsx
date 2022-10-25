@@ -492,7 +492,7 @@ export default function Header() {
             </StyledNavLink>
           </CampaignWrapper>
 
-          {/* <DiscoverWrapper id={TutorialIds.DISCOVER_LINK}>
+          <DiscoverWrapper id={TutorialIds.DISCOVER_LINK}>
             <StyledNavLink
               to={'/discover?tab=trending_soon'}
               isActive={match => Boolean(match)}
@@ -507,8 +507,8 @@ export default function Header() {
               </SlideToUnlock>
               <DiscoverIcon size={14} style={{ marginTop: '-20px', marginLeft: '4px' }} />
             </StyledNavLink>
-          </DiscoverWrapper> */}
-          <DiscoverWrapper id={TutorialIds.DISCOVER_LINK}>
+          </DiscoverWrapper>
+          {/* <DiscoverWrapper id={TutorialIds.DISCOVER_LINK}>
             <StyledNavLink
               to={'/under-construction-discover'}
               isActive={match => Boolean(match)}
@@ -523,7 +523,7 @@ export default function Header() {
               </SlideToUnlock>
               <DiscoverIcon size={14} style={{ marginTop: '-20px', marginLeft: '4px' }} />
             </StyledNavLink>
-          </DiscoverWrapper>
+          </DiscoverWrapper> */}
 
           {/* <AnalyticsWrapper>
             <StyledNavExternalLink href={PROMM_ANALYTICS_URL[chainId as ChainId] + '/home'}>
