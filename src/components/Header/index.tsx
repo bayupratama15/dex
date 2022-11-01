@@ -443,7 +443,7 @@ export default function Header() {
               <Dropdown>
                 <StyledNavLink
                   id="pools-nav-link"
-                  to="/under-construction-pools"
+                  to="/pools"
                   isActive={(match, { pathname }) => Boolean(match) || pathname.startsWith('/pools')}
                   style={{ width: '100%' }}
                 >
@@ -452,7 +452,7 @@ export default function Header() {
 
                 <StyledNavLink
                   id="my-pools-nav-link"
-                  to={'/under-construction-my-pools'}
+                  to={'/my-pools'}
                   isActive={(match, { pathname }) =>
                     Boolean(match) ||
                     pathname.startsWith('/add') ||
@@ -467,13 +467,13 @@ export default function Header() {
             </HoverDropdown>
 
             <YieldMenuWrapper>
-              <StyledNavLink id={`farms-nav-link`} to={'/under-construction-farm'} isActive={match => Boolean(match)}>
+              <StyledNavLink id={`farms-nav-link`} to={'/farms'} isActive={match => Boolean(match)}>
                 <Trans>Farm</Trans>
               </StyledNavLink>
             </YieldMenuWrapper>
           </Flex>
 
-          {/* {!under369 && (
+          {!under369 && (
             <CampaignWrapper id={TutorialIds.CAMPAIGN_LINK}>
               <StyledNavLink id={`campaigns`} to={'/campaigns'} isActive={match => Boolean(match)}>
                 <Trans>Campaigns</Trans>
@@ -484,13 +484,13 @@ export default function Header() {
                 )}
               </StyledNavLink>
             </CampaignWrapper>
-          )} */}
+          )}
 
-          <CampaignWrapper id={TutorialIds.CAMPAIGN_LINK}>
+          {/* <CampaignWrapper id={TutorialIds.CAMPAIGN_LINK}>
             <StyledNavLink id={`campaigns`} to={'/under-construction-campaigns'}>
               <Trans>Campaigns</Trans>
             </StyledNavLink>
-          </CampaignWrapper>
+          </CampaignWrapper> */}
 
           <DiscoverWrapper id={TutorialIds.DISCOVER_LINK}>
             <StyledNavLink

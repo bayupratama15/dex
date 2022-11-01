@@ -220,7 +220,7 @@ const ItemCard = ({ poolData, style = {}, myLiquidity }: ListItemProps) => {
           href={DMM_ANALYTICS_URL[chainId as ChainId] + '/pool/' + poolData.id}
           style={{ fontSize: '14px' }}
         >
-          <Trans>Analytics ↗</Trans>
+          {/* <Trans>Analytics ↗</Trans> */}
         </ExternalLink>
         <ButtonEmpty width="fit-content" fontSize="14px" padding="0" onClick={() => setSharedPoolId(poolData.id)}>
           <Trans>Share</Trans>

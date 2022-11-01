@@ -116,7 +116,7 @@ export default function ProAmmPool() {
     <>
       <PageWrapper style={{ padding: 0, marginTop: '24px' }}>
         <AutoColumn gap="lg" style={{ width: '100%' }}>
-          <InstructionText>
+          {/* <InstructionText>
             <Trans>Here you can view all your liquidity and staked balances in the Elastic Pools</Trans>
             {!upToSmall && (
               <ExternalLink href={`${PROMM_ANALYTICS_URL[chainId as ChainId]}/account/${account}`}>
@@ -128,7 +128,7 @@ export default function ProAmmPool() {
                 </Flex>
               </ExternalLink>
             )}
-          </InstructionText>
+          </InstructionText> */}
           <TabRow>
             <Flex justifyContent="space-between" flex={1} alignItems="center" width="100%">
               <Flex sx={{ gap: '1rem' }} alignItems="center">
@@ -152,7 +152,7 @@ export default function ProAmmPool() {
                   <Trans>Staked Positions</Trans>
                 </Tab>
               </Flex>
-
+              {/* 
               {upToSmall && (
                 <Flex sx={{ gap: '8px' }}>
                   <ExternalLink href={`${PROMM_ANALYTICS_URL[chainId as ChainId]}/account/${account}`}>
@@ -169,7 +169,7 @@ export default function ProAmmPool() {
                   </ExternalLink>
                   <Tutorial type={TutorialType.ELASTIC_MY_POOLS} />
                 </Flex>
-              )}
+              )} */}
             </Flex>
 
             <FilterRow>

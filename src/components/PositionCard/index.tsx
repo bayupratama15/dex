@@ -735,7 +735,7 @@ export default function FullPositionCard({
             style={{ width: '100%', textAlign: 'center' }}
             href={`${DMM_ANALYTICS_URL[chainId as ChainId]}/pool/${poolData?.id ?? ''}`}
           >
-            <Trans>Analytics ↗</Trans>
+            {/* <Trans>Analytics ↗</Trans> */}
           </ExternalLink>
         </ButtonEmpty>
         {tab === 'ALL' && farmStatus === 'FARM_ACTIVE' && (

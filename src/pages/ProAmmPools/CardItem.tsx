@@ -233,7 +233,7 @@ export default function ProAmmPoolCardItem({ pair, onShared, userPositions, idx 
             <Divider />
 
             <Flex marginTop="16px" fontSize="14px" justifyContent="space-between">
-              <ExternalLink href={getPrommAnalyticLink(chainId, pool.address)}>Analytics ↗</ExternalLink>
+              {/* <ExternalLink href={getPrommAnalyticLink(chainId, pool.address)}></ExternalLink> */}
 
               <ButtonEmpty
                 width="max-content"

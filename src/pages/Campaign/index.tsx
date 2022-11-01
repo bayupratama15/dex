@@ -213,13 +213,13 @@ export default function Campaign() {
               <ChevronDown size={24} color={theme.subText} />
             </ButtonEmpty>
           </Flex>
-          {showRules ? (
+          {/* {showRules ? (
             isSelectedCampaignMediaLoaded ? (
               <HTMLWrapper dangerouslySetInnerHTML={{ __html: oembed2iframe(rules) }} />
             ) : (
               <LoaderParagraphs />
             )
-          ) : null}
+          ) : null} */}
           <Divider />
           <Flex
             justifyContent="space-between"
@@ -235,13 +235,13 @@ export default function Campaign() {
               <ChevronDown size={24} color={theme.subText} />
             </ButtonEmpty>
           </Flex>
-          {showTermsAndConditions ? (
+          {/* {showTermsAndConditions ? (
             isSelectedCampaignMediaLoaded ? (
               <HTMLWrapper dangerouslySetInnerHTML={{ __html: oembed2iframe(termsAndConditions) }} />
             ) : (
               <LoaderParagraphs />
             )
-          ) : null}
+          ) : null} */}
           <Divider />
           <Flex
             justifyContent="space-between"
@@ -257,13 +257,13 @@ export default function Campaign() {
               <ChevronDown size={24} color={theme.subText} />
             </ButtonEmpty>
           </Flex>
-          {showOtherDetails ? (
+          {/* {showOtherDetails ? (
             isSelectedCampaignMediaLoaded ? (
               <HTMLWrapper dangerouslySetInnerHTML={{ __html: oembed2iframe(otherDetails) }} />
             ) : (
               <LoaderParagraphs />
             )
-          ) : null}
+          ) : null} */}
           <Divider />
         </Flex>
       ),
@@ -292,11 +292,11 @@ export default function Campaign() {
           <Text fontSize={16} fontWeight={500}>
             <Trans>Rewards</Trans>
           </Text>
-          {isSelectedCampaignMediaLoaded ? (
+          {/* {isSelectedCampaignMediaLoaded ? (
             <HTMLWrapper dangerouslySetInnerHTML={{ __html: oembed2iframe(rewardDetails) }} />
           ) : (
             <LoaderParagraphs />
-          )}
+          )} */}
         </Flex>
       ),
     [isSelectedCampaignMediaLoaded, rewardDetails],
@@ -421,7 +421,7 @@ export default function Campaign() {
       <PageWrapper>
         <CampaignContainer>
           <HideMedium style={{ maxWidth: 'max(35%, 400px)' }}>
-            <CampaignListAndSearch onSelectCampaign={onSelectCampaign} />
+            {/* <CampaignListAndSearch onSelectCampaign={onSelectCampaign} /> */}
           </HideMedium>
 
           <CampaignDetail>

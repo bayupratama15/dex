@@ -237,7 +237,7 @@ export default function ProAmmPoolListItem({ pair, idx, onShared, userPositions,
                   <Share2 size="14px" color={theme.subText} />
                 </ButtonIcon>
               </MouseoverTooltip>
-              <ExternalLink href={getPrommAnalyticLink(chainId, pool.address)}>
+              {/* <ExternalLink href={getPrommAnalyticLink(chainId, pool.address)}>
                 <MouseoverTooltip text={t`View analytics`} placement={'top'} width={'fit-content'}>
                   <ButtonIcon
                     onClick={e => {
@@ -247,7 +247,7 @@ export default function ProAmmPoolListItem({ pair, idx, onShared, userPositions,
                     <BarChart2 size="14px" color={theme.subText} />
                   </ButtonIcon>
                 </MouseoverTooltip>
-              </ExternalLink>
+              </ExternalLink> */}
 
               {index === 0 && (
                 <ButtonIcon

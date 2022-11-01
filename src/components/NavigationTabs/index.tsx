@@ -229,7 +229,7 @@ export function AddRemoveTabs({
         {!below768 && arrow}
         {!below768 && title}
         <Flex style={{ gap: '0px' }}>
-          {tutorialType && (
+          {/* {tutorialType && (
             <Tutorial
               type={tutorialType}
               customIcon={
@@ -238,7 +238,7 @@ export function AddRemoveTabs({
                 </StyledMenuButton>
               }
             />
-          )}
+          )} */}
           {onCleared && (
             <StyledMenuButton active={false} onClick={onCleared}>
               <Trash size={18} />

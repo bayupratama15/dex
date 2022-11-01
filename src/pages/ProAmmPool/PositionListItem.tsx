@@ -357,12 +357,12 @@ export default function PositionListItem({
           <Divider sx={{ marginBottom: '20px' }} />
           <RowBetween>
             <ButtonEmpty width="max-content" style={{ fontSize: '14px' }} padding="0">
-              <ExternalLink
+              {/* <ExternalLink
                 style={{ width: '100%', textAlign: 'center' }}
                 href={`${PROMM_ANALYTICS_URL[chainId as ChainId]}/pool/${positionDetails.poolId.toLowerCase()}`}
               >
                 <Trans>Pool Analytics ↗</Trans>
-              </ExternalLink>
+              </ExternalLink> */}
             </ButtonEmpty>
 
             {farmAvailable && (
