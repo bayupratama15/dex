@@ -332,17 +332,16 @@ msgid "An update is available for the token list \"{0}\" ({1} to {2})."
 msgstr "An update is available for the token list \"{0}\" ({1} to {2})."
 
 #: src/components/Menu/index.tsx
-msgid "Analytics"
-msgstr "Analytics"
+#~ msgid "Analytics"
+#~ msgstr "Analytics"
 
 #: src/components/PoolList/ItemCard/index.tsx
 #: src/components/PositionCard/index.tsx
-msgid "Analytics ↗"
-msgstr "Analytics ↗"
+#~ msgid "Analytics ↗"
+#~ msgstr "Analytics ↗"
 
 #: src/components/AccountDetails/index.tsx
 #: src/pages/Pool/index.tsx
-#: src/pages/ProAmmPool/index.tsx
 msgid "Analyze Wallet"
 msgstr "Analyze Wallet"
 
@@ -1492,8 +1491,8 @@ msgid "Here you can view all your liquidity and staked balances in the Classic P
 msgstr "Here you can view all your liquidity and staked balances in the Classic Pools"
 
 #: src/pages/ProAmmPool/index.tsx
-msgid "Here you can view all your liquidity and staked balances in the Elastic Pools"
-msgstr "Here you can view all your liquidity and staked balances in the Elastic Pools"
+#~ msgid "Here you can view all your liquidity and staked balances in the Elastic Pools"
+#~ msgstr "Here you can view all your liquidity and staked balances in the Elastic Pools"
 
 #: 
 #~ msgid "Here you can view tokens that are currently trending in <0>Coingecko</0> and <1>Coinmarketcap</1>"
@@ -2159,6 +2158,7 @@ msgid "Network"
 msgstr "Network"
 
 #: src/components/Header/index.tsx
+#: src/components/Header/index.tsx
 #: src/components/Menu/index.tsx
 #: src/pages/Yield/index.tsx
 msgid "New"
@@ -2396,8 +2396,8 @@ msgid "Pool"
 msgstr "Pool"
 
 #: src/pages/ProAmmPool/PositionListItem.tsx
-msgid "Pool Analytics ↗"
-msgstr "Pool Analytics ↗"
+#~ msgid "Pool Analytics ↗"
+#~ msgstr "Pool Analytics ↗"
 
 #: src/pages/PoolFinder/index.tsx
 msgid "Pool Found!"
@@ -3685,8 +3685,8 @@ msgid "View Transactions"
 msgstr "View Transactions"
 
 #: src/pages/ProAmmPools/ListItem.tsx
-msgid "View analytics"
-msgstr "View analytics"
+#~ msgid "View analytics"
+#~ msgstr "View analytics"
 
 #: src/pages/TrueSight/components/TrendingLayout/TrendingTokenItemMobileOnly.tsx
 #: src/pages/TrueSight/components/TrendingSoonLayout/TrendingSoonTokenItemDetailsOnMobile.tsx

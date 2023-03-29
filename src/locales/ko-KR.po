@@ -340,17 +340,16 @@ msgid "An update is available for the token list \"{0}\" ({1} to {2})."
 msgstr "토큰 목록 \"{0}\"({1}에서 {2}까지)에 대한 업데이트가 있습니다."
 
 #: src/components/Menu/index.tsx
-msgid "Analytics"
-msgstr "애널리틱스"
+#~ msgid "Analytics"
+#~ msgstr "애널리틱스"
 
 #: src/components/PoolList/ItemCard/index.tsx
 #: src/components/PositionCard/index.tsx
-msgid "Analytics ↗"
-msgstr "애널리틱스"
+#~ msgid "Analytics ↗"
+#~ msgstr "애널리틱스"
 
 #: src/components/AccountDetails/index.tsx
 #: src/pages/Pool/index.tsx
-#: src/pages/ProAmmPool/index.tsx
 msgid "Analyze Wallet"
 msgstr ""
 
@@ -1533,8 +1532,8 @@ msgid "Here you can view all your liquidity and staked balances in the Classic P
 msgstr ""
 
 #: src/pages/ProAmmPool/index.tsx
-msgid "Here you can view all your liquidity and staked balances in the Elastic Pools"
-msgstr ""
+#~ msgid "Here you can view all your liquidity and staked balances in the Elastic Pools"
+#~ msgstr ""
 
 #: 
 #~ msgid "Here you can view tokens that are currently trending in <0>Coingecko</0> and <1>Coinmarketcap</1>"
@@ -2200,6 +2199,7 @@ msgid "Network"
 msgstr "네트워크"
 
 #: src/components/Header/index.tsx
+#: src/components/Header/index.tsx
 #: src/components/Menu/index.tsx
 #: src/pages/Yield/index.tsx
 msgid "New"
@@ -2441,8 +2441,8 @@ msgid "Pool"
 msgstr "풀"
 
 #: src/pages/ProAmmPool/PositionListItem.tsx
-msgid "Pool Analytics ↗"
-msgstr ""
+#~ msgid "Pool Analytics ↗"
+#~ msgstr ""
 
 #: src/pages/PoolFinder/index.tsx
 msgid "Pool Found!"
@@ -3738,8 +3738,8 @@ msgid "View Transactions"
 msgstr ""
 
 #: src/pages/ProAmmPools/ListItem.tsx
-msgid "View analytics"
-msgstr ""
+#~ msgid "View analytics"
+#~ msgstr ""
 
 #: src/pages/TrueSight/components/TrendingLayout/TrendingTokenItemMobileOnly.tsx
 #: src/pages/TrueSight/components/TrendingSoonLayout/TrendingSoonTokenItemDetailsOnMobile.tsx

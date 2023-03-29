@@ -244,12 +244,12 @@ export default function Menu() {
           <UserPlus size={14} />
           <Trans>Referral</Trans>
         </NavMenuItem>
-        {!above1321 && (
+        {/* {!above1321 && (
           <MenuItem id="link" href={DMM_ANALYTICS_URL[chainId as ChainId]}>
             <PieChart size={14} />
             <Trans>Analytics</Trans>
           </MenuItem>
-        )}
+        )} */}
         {/* <MenuItem id="link" href="https://docs.kyberswap.com">
           <BookOpen size={14} />
           <Trans>Docs</Trans>
@@ -296,7 +296,7 @@ export default function Menu() {
             mt="16px"
             textAlign={isMobile ? 'left' : 'center'}
           >
-            kyberswap@{process.env.REACT_APP_TAG}
+            cryonswap@{process.env.REACT_APP_TAG}
           </Text>
         )}
       </MenuFlyout>
